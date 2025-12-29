@@ -3,7 +3,7 @@ package AracKiralamaSistem;
 public class Admin extends Kullanici {
 	private String yetkiSeviyesi;
 	
-	public Admin(int id, String ad, String soyad, String email, String telefon, String kullaniciAdi, sifre) {
+	public Admin(int id, String ad, String soyad, String email, String telefon, String kullaniciAdi, String sifre, String yetkiSeviyesi) {
 		super(id, ad, soyad, email, telefon, kullaniciAdi, sifre);
 		this.yetkiSeviyesi=yetkiSeviyesi;
 		}

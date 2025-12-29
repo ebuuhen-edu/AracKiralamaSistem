@@ -39,7 +39,7 @@ public class Rezervasyon {
 	
 	@Override 
 	public String toString() {
-		return "Rezervasyon ID: " +ID + ", Müşteri: "+ musteriId + ", Araç: " + aracId + ", Tarih: " + baslangicTarihi + " - " + bitisTarihi + ", Durum: " + durum + ", Ücret: "+ toplamUcret + " TL";
+		return "Rezervasyon ID: " + id + ", Müşteri: "+ musteriId + ", Araç: " + aracId + ", Tarih: " + baslangicTarihi + " - " + bitisTarihi + ", Durum: " + durum + ", Ücret: "+ toplamUcret + " TL";
 		
 	}
 }

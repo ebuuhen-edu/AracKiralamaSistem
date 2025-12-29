@@ -5,7 +5,7 @@ public class Otomobil extends Arac {
 	private int koltukSayisi;
 	
 	public Otomobil(int id, String marka, String model, int yil, double gunlukKiraBedeli, String plaka, String yakitTuru, int koltukSayisi) {
-		super(id, marka, model, yil, gunlukKiraBedeli,  plaka);
+		super(id, marka, model, yil, gunlukKiraBedeli, true,  plaka);
 		this.yakitTuru=yakitTuru;
 		this.koltukSayisi=koltukSayisi;
 	}
@@ -26,6 +26,11 @@ public class Otomobil extends Arac {
 	@Override
 	public String toString() {
 		return marka + " " + model + "(" + yil + ") - " + plaka + " - " + yakitTuru + " - " + gunlukKiraBedeli + " TL/gun";
+	}
+	@Override
+	public double gunlukKiraHesapla(int gunSayisi) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 	
 

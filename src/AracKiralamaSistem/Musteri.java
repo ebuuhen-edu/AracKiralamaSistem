@@ -18,4 +18,10 @@ public class Musteri extends Kullanici{
 		System.out.println("Müşteri cikisi yapıldı: "+ kullaniciAdi);
 	}
 
+	@Override
+	public void cikisYap() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

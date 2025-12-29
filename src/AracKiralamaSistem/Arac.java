@@ -20,11 +20,11 @@ public abstract class Arac implements Kiralanabilir {
 	@Override
 	public boolean durumKontrol() {
 		return kiralanabilirDurum;
-		
+
 	}
-	
+
 	@Override
-	public void kiralamaYap() { 
+	public void kiralamaYap() {
 		if(kiralanabilirDurum) {
 			kiralanabilirDurum=false;
 			System.out.println("Araç kiralandı: "+ plaka);
@@ -37,7 +37,7 @@ public abstract class Arac implements Kiralanabilir {
 		kiralanabilirDurum=true;
 		System.out.println("Araç iade edildi:" + plaka);
 	}
-	
+
 	// Getter ve Setter metodları
 	public int getId() { return id; }
 	public String getMarka() { return marka; }
@@ -49,11 +49,11 @@ public abstract class Arac implements Kiralanabilir {
 	public void  getGunlukKiraBedeli(double gunlukKiraBedeli) {
 		this.gunlukKiraBedeli=gunlukKiraBedeli;
 	}
-	
-	
-	
-		
+
+
+
+
 	}
-	
+
 
 
